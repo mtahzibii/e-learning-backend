@@ -74,6 +74,24 @@
       "relation": "manyToMany",
       "target": "api::order.order",
       "mappedBy": "user"
+    },
+    "account": {
+      "type": "enumeration",
+      "enum": [
+        "instructor",
+        "student"
+      ]
+    },
+    "notif": {
+      "type": "boolean"
+    },
+    "gender": {
+      "type": "enumeration",
+      "enum": [
+        "male",
+        "female",
+        "other"
+      ]
     }
   }
 }
